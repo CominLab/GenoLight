@@ -36,20 +36,20 @@ You should now find the program in GenoLight folder.
 GenoLight has two main functions: it creates a smart SNP dictionary from a reference genome and SNP dicitonary and then it performs the genotypization of a datasets.
 The first phase is divided into 4 main functions:  
 
-1.'create_incomplete_smartSnpDictionary' needs 
-    1.-r [reference genome]
-    2.-s [snp dictionary]
-    3.-p [output files prefix];
+1. 'create_incomplete_smartSnpDictionary' needs 
+    1. -r [reference genome]
+    2. -s [snp dictionary]
+    3. -p [output files prefix];
 
-2.'reassembly' needs
-    1.-n [snp dictionary]
-    2.-p [output files prefix];
+2. 'reassembly' needs
+    1. -n [snp dictionary]
+    2. -p [output files prefix];
 
-3.'createFMDIndex' doesn't need any additional command;
+3. 'createFMDIndex' doesn't need any additional command;
 
-4.'complete_smartSnpDictionary' needs
-    1.-n [snp dictionary]
-    2.-p [output files prefix].
+4. 'complete_smartSnpDictionary' needs
+    1. -n [snp dictionary]
+    2. -p [output files prefix].
 
 Usage examples:
 
