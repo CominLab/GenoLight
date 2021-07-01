@@ -37,19 +37,19 @@ GenoLight has two main functions: it creates a smart SNP dictionary from a refer
 The first phase is divided into 4 main functions:  
 
 1. 'create_incomplete_smartSnpDictionary' needs 
-    1. -r [reference genome]
-    2. -s [snp dictionary]
-    3. -p [output files prefix];
+    * -r [reference genome]
+    * -s [snp dictionary]
+    * -p [output files prefix];
 
 2. 'reassembly' needs
-    1. -n [snp dictionary]
-    2. -p [output files prefix];
+    * -n [snp dictionary]
+    * -p [output files prefix];
 
 3. 'createFMDIndex' doesn't need any additional command;
 
 4. 'complete_smartSnpDictionary' needs
-    1. -n [snp dictionary]
-    2. -p [output files prefix].
+    * -n [snp dictionary]
+    * -p [output files prefix].
 
 Usage examples:
 
@@ -68,17 +68,18 @@ Usage examples:
 
 The second one has only one function.
 
-1. 'geno' needs
-    1. -t [number of threads]
-    2. -r [single end reads]
-    3. -rl [Left/.1 paired end reads]
-    4. -rr [Right/.2 paired end reads]
-    5. -q [quality score]
-    6. -s [snp dictionary]
-    7. -p [output files prefix]
-    8. -o [genotyping output file].
+5. 'geno' needs
+    * -t [number of threads]
+    * -r [single end reads]
+    * -rl [Left/.1 paired end reads]
+    * -rr [Right/.2 paired end reads]
+    * -q [quality score]
+    * -s [snp dictionary]
+    * -p [output files prefix]
+    * -o [genotyping output file].
 
-NOTE THAT you should EITHER use '-r' or '-rl' & '-rr'.
+NOTE THAT you should EITHER use '-r' or '-rl' & '-rr'. 
+The number of threads and the quality score are optional.
 
 Usage example: 
 
