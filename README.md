@@ -68,15 +68,15 @@ Usage examples:
 
 The second one has only one function.
 
-1.'geno' needs
-    1.-t [number of threads]
-    2.-r [single end reads]
-    3.-rl [Left/.1 paired end reads]
-    4.-rr [Right/.2 paired end reads]
-    5.-q [quality score]
-    6.-s [snp dictionary]
-    7.-p [output files prefix]
-    8.-o [genotyping output file].
+1. 'geno' needs
+    1. -t [number of threads]
+    2. -r [single end reads]
+    3. -rl [Left/.1 paired end reads]
+    4. -rr [Right/.2 paired end reads]
+    5. -q [quality score]
+    6. -s [snp dictionary]
+    7. -p [output files prefix]
+    8. -o [genotyping output file].
 
 NOTE THAT you should EITHER use '-r' or '-rl' & '-rr'.
 
