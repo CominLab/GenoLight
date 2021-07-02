@@ -39,11 +39,19 @@ The first phase is divided into 4 main functions:
 1. 'create_incomplete_smartSnpDictionary' needs 
     * -r [reference genome]
     * -s [snp dictionary]
-    * -p [output files prefix];
+    * -p [prefix you want to give to output files];
+    
+    and returns 3 files in the output folder, named: 
+    * [output files prefix]Temp.txt
+    * [output files prefix]SmartDict[snp dictionary]
+    * [output files prefix].chrlens;
 
 2. 'reassembly' needs
-    * -n [snp dictionary]
+    * -n [name you want to give to the new dict]
     * -p [output files prefix];
+    
+    and returns 1 file in the output folder, named: 
+    * testReassembly[name new dict].txt
 
 3. 'createFMDIndex' doesn't need any additional command;
 
@@ -57,7 +65,7 @@ Usage examples:
 ./genolight create_incomplete_smartSnpDictionary -r [reference genome] -s [snp dictionary] -p [output files prefix]
 ```
 ```sh
-./genolight reassembly -n [snp dictionary] -p [output files prefix]
+./genolight reassembly -n \'[output files prefix]SmartDict[snp dictionary]\' -p [output files prefix]
 ```
 ```sh
 ./genolight createFMDIndex   
