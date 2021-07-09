@@ -49,11 +49,15 @@ You can also do both with one call using
 ```
   
 NOTE THAT YOU MUST CHOOSE 2 NAMES FOR [-n name] [-p prefix]. They will be used to store the temporary files and the dictionaries.  
+
+  
 [-x name of reference file (without extension)] is the name of the reference genome without its extension (for example if ref = reference.fa than x must be 'reference').  
 
 Moreover, the geno command of the script can be used only if you don't use paired end reads divided in two files with the inner distance between pairs. It uses the dataset file as single end.
-
-The first phase is divided into 4 main functions:  
+  
+  
+If you don't want to use the script, here's a brief description of GenoLight commands.
+The first phase is divided into 5 main functions:  
 
 1. 'create_incomplete_smartSnpDictionary' needs 
     * -r [reference genome]
@@ -123,7 +127,7 @@ Usage example:
 Paired end 
 
 ```sh
-./genolight geno -t [number of threads] -rl [Left/.1 paired end reads] -rr [Right/.2 paired end reads] -s [snp dictionary] -p [output files prefix] -o [genotyping output file] -tmp [output folder path]
+./genolight geno -t [number of threads] -rl [Left/.1 paired end reads] -rr [Right/.2 paired end reads] -i [inner_distance] -s [snp dictionary] -p [output files prefix] -o [genotyping output file] -tmp [output folder path]
 ```
 or 
 
