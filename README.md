@@ -33,8 +33,8 @@ You should now find the program in GenoLight folder.
 
 ##  <a name="general"></a>General Usage
 
-GenoLight has two main functions: it creates a smart SNP dictionary from a reference genome and SNP dicitonary and then it performs the genotypization of a datasets.
-Since the first phase is divided into 5 steps, we provide a shell script, GENOLIGHT, that can be used to create the dictionary and necessary files to perform the genotyping in one call and to actually do the genotyping.
+GenoLight has two main functions: it creates a smart SNP dictionary from a reference genome and SNP dicitonary and then it performs the genotypization of a datasets.  
+Since the first phase is divided into 5 steps, we provide a shell script, GENOLIGHT, that can be used to create the dictionary and necessary files to perform the genotyping in one call and to actually do the genotyping.  
 In order to create the dictionaries and the preprocessing files, you just need to call (from within the GenoLight folder)
 ```sh
 ./GENOLIGHT preprocess [-r path to reference genome] [-v path to vcf file] [-n name] [-p prefix] [-o path/to/output/folder]
