@@ -149,6 +149,5 @@ requests, you can raise an issue at the [issue page][issue]. You can also contac
 ## <a name="cite"></a>Citing GenoLight
 
 GenoLight paper "Efficient K-mers Indexing with Application to Mapping-free SNP Genotyping" is under review.
-If you use GenoLight in your work, please cite:
 
 [issue]: https://github.com/frankandreace/GenoLight/issues
